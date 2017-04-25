@@ -2,3 +2,37 @@
  * CSS code specific to home page
  * (margin/padding adjustments)
  * ------------------------------------- */
+
+.features h1 {
+  font-size: 30px;
+  color: $brand-color;
+}
+.features h2 {
+  padding: 25px;
+  margin: 0;
+  font-size: 20px;
+  font-family: Raleway, Helvetica, sans-serif;
+  color: black;
+}
+
+.features h3 {
+  margin: 0 0 0px;
+  padding: 50px;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: Open-sans, sans-serif;
+  color: $gray;
+}
+
+.features p {
+  font-size: 17px;
+  font-weight: lighter;
+  color: $gray;
+  margin-bottom: 20px;
+}
+
+.features img {
+  height: 85px;
+  width: 85px;
+}
+
