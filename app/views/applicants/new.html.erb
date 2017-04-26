@@ -1,0 +1,16 @@
+
+
+<div class="container">
+  <div class="col-sx-12 col-sm-12">
+  <%= render 'job_description' %>
+    <div class="form">
+      <%= simple_form_for (@applicant) do |f| %>
+        <%= f.label "What is your motivation?" %>
+        <%= f.input :motivation, label: false %>
+        <%= f.input :linkedin_url %>
+        <%= f.input :github_url %>
+        <%= f.submit "Apply", class: "btn btn-primary" %>
+      <% end %>
+    </div>
+  </div>
+</div>
