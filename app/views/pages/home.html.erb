@@ -2,12 +2,12 @@
 <!-- Transparent navbar for home -->
 <% content_for(:navbar_class, "navbar-home") %>
 
-<div class="banner" style= "background-image: linear-gradient(-225deg, rgba(0,101,168,0.4) 0%, rgba(0,36,61,0.3) 50%), url('<%= image_path('actiondeskhomepage') %>')">
+<div class="banner" style= "background-image: linear-gradient(-225deg, rgba(0,78,55,0.3) 0%, rgba(0,36,61,0.3) 50%), url('<%= image_path('actiondeskhomepage') %>')">
 
   <div class="banner-content" id="home-banner">
     <h1>Action Driven Data Analysis</h1>
-    <p>The first analytics tool helping you to drive the right actions</p>
-    <%= link_to "Learn More", new_lead_path, class: 'btn btn-primary'  %>
+    <h3>Get the numbers to serve your business</h3>
+    <%= link_to "Learn More", new_lead_path, class: 'btn btn-primary', id:"home-button"  %>
   </div>
 </div>
 
@@ -35,7 +35,7 @@
         <div class="col-xs-12 col-sm-4 col-md-4 feature-box">
             <i class="material-icons" style="font-size: 80px; color:#213458">fast_forward</i>
             <h2>Action</h2>
-            <p>You will receive focused and actionable recommendations on how to improve your business and solve your problem</p>
+            <p>You will receive focused and actionable recommendations on how to improve your business and solve your problems</p>
         </div>
       </div>
     </div>
