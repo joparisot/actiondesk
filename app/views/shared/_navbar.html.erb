@@ -1,7 +1,7 @@
-<div class="navbar-wagon navbar-home">
+<div class="navbar-wagon <%= yield(:navbar_class) %>">
   <!-- Logo -->
   <%= link_to root_path, class: "navbar-wagon-brand" do %>
-    <%= image_tag "logo.png" %>
+  <!-- Will add logo here when I have one -->
   <% end %>
 
   <!-- Right Navigation -->
