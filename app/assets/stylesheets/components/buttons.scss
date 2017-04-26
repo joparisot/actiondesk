@@ -1,0 +1,18 @@
+#home-button {
+  padding: 14px;
+  font-size: 25px;
+  margin-top: 10px;
+  transition: all 0.3s ease 0s;
+  color: white;
+  background-color: $brand-color;
+  border: solid 2.5px $brand-color;
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 275px;
+
+  &:hover {
+    background-color: white;
+    color: $brand-color;
+    text-decoration: none;
+  }
+}

@@ -8,11 +8,8 @@
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 
 
-      <!-- Anout page text link (to put the backend logic) -->
-      <%= link_to t(".sign_in", default: "About"), new_user_session_path, class: "navbar-wagon-item navbar-wagon-link" %>
-
     <!-- Button (call-to-action) -->
-    <%= link_to t(".top_call_to_action", default: "Join us"), "#", class: "navbar-wagon-item navbar-wagon-button btn" %>
+    <%= link_to t(".top_call_to_action", default: "Join us"), new_applicant_path, class: "navbar-wagon-item navbar-wagon-button btn" %>
   </div>
 
   <!-- Dropdown list appearing on mobile only -->

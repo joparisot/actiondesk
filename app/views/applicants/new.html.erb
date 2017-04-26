@@ -5,6 +5,7 @@
   <%= render 'job_description' %>
     <div class="form">
       <%= simple_form_for (@applicant) do |f| %>
+        <%= f.input :email_address %>
         <%= f.label "What is your motivation?" %>
         <%= f.input :motivation, label: false %>
         <%= f.input :linkedin_url %>
