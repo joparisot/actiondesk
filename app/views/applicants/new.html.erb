@@ -4,10 +4,10 @@
 
 <div class="container">
   <div class="col-sx-12 col-sm-12">
-  <%= render 'job_description' %>
+  <%= render 'open_application' %>
     <div class="form">
       <%= simple_form_for (@applicant) do |f| %>
-        <%= f.input :email_address %>
+        <%= f.input :email_address, error: 'Username is mandatory, please specify one' %>
         <%= f.label "In short, what is your motivation to join ActionDesk (English or French)?" %>
         <%= f.input :motivation, label: false %>
         <%= f.input :linkedin_url %>
