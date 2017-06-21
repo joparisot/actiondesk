@@ -3,6 +3,15 @@
  * (margin/padding adjustments)
  * ------------------------------------- */
 
+.white-background {
+  background-color: white;
+}
+
+.example {
+  height: 1000px;
+}
+
+
 .features h1 {
   font-size: 30px;
   color: $brand-color;

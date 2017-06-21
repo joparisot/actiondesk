@@ -4,7 +4,7 @@
   background: white;
   transition: all 0.3s ease;
   display: flex;
-  height: 70px;
+  height: 130px;
   padding: 0px 30px;
   align-items: center;
   justify-content: space-between;
@@ -28,7 +28,7 @@
 
 /* Navbar logo */
 .navbar-wagon-brand img {
-  width: 50px;
+  width: 85px;
 }
 
 /* Navbar right section (with form, links, button) */
@@ -58,12 +58,12 @@
 /* Navbar right button */
 .navbar-wagon-button {
   margin-left: 10px;
-  padding: 0 20px;
+  padding: 0 40px;
   border-radius: 20em;
-  line-height: 40px;
+  line-height: 60px;
   background-color: $brand-color;
   color: white;
-  font-size: 14px;
+  font-size: 20px;
   border: 2px solid $brand-color;
 }
 .navbar-wagon-button:hover {
